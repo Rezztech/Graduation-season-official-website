@@ -1,6 +1,6 @@
 Graduation-season-official-website
 ===
-壹零柒
+[release page](https://rezztech.github.io/Graduation-season-official-website/)
 
 ## index.html
 ### 臺南一中 **拂往Foward**畢業祭
@@ -12,4 +12,4 @@ graduation season
 ### 聯絡我們
 
 ## Graduation_ceremony.html
-### 臺南一中 畢業典禮
+### 臺南一中 壹零柒 畢業典禮
