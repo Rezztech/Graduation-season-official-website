@@ -1,6 +1,6 @@
 Graduation-season-official-website
 ===
-[release page](https://rezztech.github.io/Graduation-season-official-website/)
+[![Website](https://img.shields.io/website-up-down-green-red/http/shields.io.svg?label=Graduation-season)](https://rezztech.github.io/Graduation-season-official-website/)
 
 ## index.html
 ### 臺南一中 **拂往Foward**畢業祭
