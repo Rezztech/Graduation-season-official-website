@@ -195,9 +195,10 @@ body {
 ::-moz-focus-inner {border:0;}
 
 .slide {
+    background-size: 100% auto;
     background-position: center center;
     background-repeat: no-repeat;
-    padding-bottom: 300px;
+    padding-bottom: 150px;
     padding-top: 50px;
     text-align: center;
 }
