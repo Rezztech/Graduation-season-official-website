@@ -195,7 +195,6 @@ body {
 ::-moz-focus-inner {border:0;}
 
 .slide {
-    background-size: 100% auto;
     background-position: center center;
     background-repeat: no-repeat;
     padding-bottom: 150px;
@@ -204,7 +203,7 @@ body {
 }
 
 #slide-1 {
-    background-image: url('../images/top-background-big.jpg');
+    background-image: url('../images/top-background.jpg');
     color: #ffffff;
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
@@ -234,7 +233,7 @@ body {
 
 @media (max-width: 767px) {
     #slide-1 {
-        background-image: url('../images/top-background-small.jpg');
+        background-image: url('../images/top-background.jpg');
     }
     #home-row-1 {
         position: absolute;
