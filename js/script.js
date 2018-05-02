@@ -1,3 +1,6 @@
+n = new Date();
+m = n.getMonth() + 1;
+document.getElementById("date").innerHTML = 31 - m;
 
 $(document).ready(function(e) {
 	$('.with-hover-text, .regular-link').click(function(e){
