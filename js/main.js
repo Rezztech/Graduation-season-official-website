@@ -1,8 +1,8 @@
 /*
  * Version 
- * Author: WildfootW
- * GitHub: github.com/Wildfoot
- * Copyright (C) 2018 WildfootW All rights reserved.
+ * Author: WildfootW, Uier
+ * GitHub: github.com/Wildfoot, github.com/Uier
+ * Copyright (C) 2018 All rights reserved.
  *
  */
 
@@ -11,4 +11,8 @@ $(document).ready(function(){
         console.log("click");
         window.location.href = "./Graduation_ceremony.html";
     });
+
+    date_object = new Date();
+    document.getElementById("date").innerHTML = 31 - date_object.getDate();
 });
+

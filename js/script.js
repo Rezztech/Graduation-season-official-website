@@ -1,7 +1,3 @@
-n = new Date();
-d = n.getDate();
-document.getElementById("date").innerHTML = 31-d;
-
 $(document).ready(function(e) {
 	$('.with-hover-text, .regular-link').click(function(e){
 		e.stopPropagation();
