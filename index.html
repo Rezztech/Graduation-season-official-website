@@ -7,11 +7,12 @@
         <title>拂往Foward畢業祭</title>
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 
+
+        <!-- css -->
         <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="fancybox/jquery.fancybox-v=2.1.5.css" type="text/css" media="screen">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.css" />
         <link rel="stylesheet" href="css/font-awesome.min.css" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="css/style.css">
-
         <link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,600,300,200&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 
         <link rel="prefetch" href="images/zoom.png">
@@ -43,7 +44,15 @@
             </div><!-- /.nav-collapse -->
         </div><!-- /.container -->
     </div><!-- /.navbar -->
-    
+
+    <!-- === Arrows === -->
+    <div id="arrows">
+        <div id="arrow-up" class="disabled"></div>
+        <div id="arrow-down"></div>
+        <div id="arrow-left" class="disabled visible-lg"></div>
+        <div id="arrow-right" class="disabled visible-lg"></div>
+    </div><!-- /.arrows -->
+
     <!-- === Slide 1 === -->
     <div class="slide story" id="slide-1" data-slide="1">
         <div class="container">
@@ -70,7 +79,7 @@
                 </div>
         </div><!-- /container -->
     </div><!-- /slide1 -->
-    
+
     <!-- === Slide 2 === -->
     <div class="slide story" id="slide-2" data-slide="2">
         <div class="container">
@@ -79,11 +88,11 @@
                 <div class="col-12 font-thin" style="font-size:30px;text-align:left">　　或許我們都因為很沈重的課業，而忽略這件事情，也或許接下來的半年，<br>　　大家還是會很忙碌。</div>
                 <div class="col-12 font-thin" style="font-size:30px;text-align:left">　　但請大家不要忘了身邊那些曾共同創造美好回憶的同學們，把握每一次相<br>　　聚的機會，為彼此的高中故事畫下完美的句點。</div>
             </div><!-- /row -->
-            
+
             <div class="row line-row">
                 <div class="hr">&nbsp;</div>
             </div><!-- /row -->
-            
+
             <div class="row subtitle-row">
                 <div class="col-12 font-thin" style="color:white">關於畢業典禮</span></div>
             </div><!-- /row -->
@@ -107,7 +116,7 @@
             <br>
         </div><!-- /container -->
     </div><!-- /slide2 -->
-    
+
     <!-- === SLide 3 - Portfolio -->
     <div class="slide story" id="slide-3" data-slide="3">
         <div class="row">
@@ -158,7 +167,7 @@
             </div><!-- /row -->
         </div><!-- /container -->
     </div><!-- /slide4 -->
-    
+
     <!-- === Slide 5 === -->
     <div class="slide story" id="slide-5" data-slide="5">
         <div class="container">
@@ -175,7 +184,7 @@
             </div><!-- /row -->
         </div><!-- /container -->
     </div><!-- /slide5 -->
-    
+
     <!-- === Slide 6 / Contact === -->
     <div class="slide story" id="slide-6" data-slide="6">
         <div class="container">
@@ -216,21 +225,22 @@
 </body>
 
     <!-- SCRIPTS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-migrate-3.0.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.js"></script>
+
     <script type="text/javascript" src="js/html5shiv.js"></script>
-    <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
-    <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
-    <script type="text/javascript" src="fancybox/jquery.fancybox.pack-v=2.1.5.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
-    
+
     <!-- fancybox init -->
     <script>
     $(document).ready(function(e) {
         var lis = $('.nav > li');
         menu_focus( lis[0], 1 );
-        
+
         $(".fancybox").fancybox({
             padding: 10,
             helpers: {
@@ -239,7 +249,7 @@
                 }
             }
         });
-    
+
     });
     </script>
 
