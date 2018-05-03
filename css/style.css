@@ -519,7 +519,7 @@ body {
 }
 
 .zoom {
-    background-image: url('../images/zoom.png');
+    background-image: url('../images/fancybox/zoom.png');
     background-position: center center;
     background-repeat: no-repeat;
     height: 100%;
