@@ -8,8 +8,19 @@
 
 $(document).ready(function(){
     $(".link-to-graduation-ceremony").click(function(){
-        console.log("click");
         window.location.href = "./activity/Graduation_ceremony.html";
+    });
+    $(".baseball-activity").click(function(){
+        window.location.href = "./activity/baseball.html";
+    });
+    $(".postcard-activity").click(function(){
+        window.location.href = "./activity/postcard.html";
+    });
+    $(".song-activity").click(function(){
+        window.location.href = "./activity/song.html";
+    });
+    $(".picture-activity").click(function(){
+        window.location.href = "./activity/tack_picture.html";
     });
 
     date_object = new Date();
