@@ -166,7 +166,7 @@ body {
         padding-left: 0;
     }
     .icon {
-        margin-right: 12px;
+        font-size: 12vw !important;
     }
     .nav li[data-slide="1"],
     .nav li[data-slide="6"] {
@@ -301,7 +301,7 @@ body {
 #slide-2 {
     background-color: #1abc9c;
     color: #e4e6e5;
-    padding-top: 90px;
+    padding-top: 70px;
 }
 
     .title-row {
@@ -318,8 +318,8 @@ body {
     
     .subtitle-row {
         font-size: 35px;
-        padding-bottom: 40px;
-        padding-top: 40px;
+        padding-bottom: 30px;
+        padding-top: 30px;
     }
     
     .content-row {
