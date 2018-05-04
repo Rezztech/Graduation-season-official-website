@@ -218,30 +218,39 @@ body {
     padding-top: 130px;
 }
 
-/*
-@media (max-width: 991px) {
-    #slide-1 {
-        background-position: -70% 0, 170% 0;
-    }
+#ceremony-countdown {
+    margin: 20vw auto auto 60vw;
 }
-*/
+#ceremony-countdown #countdown {
+    font-size: 36px;
+}
+#ceremony-countdown #date {
+    font-size: 72px;
+}
 
-/*
 @media (max-width: 767px) {
+    /*
     #slide-1 {
-        background-image: url('../images/top-background.jpg');
+        position: relative;
     }
-    #home-row-1 {
+    #ceremony-countdown {
         position: absolute;
     }
-    #home-row-2 .col-12{
-        height: 0px !important;
+    */
+    #ceremony-countdown {
+        margin: 15vw auto auto 60vw;
     }
-    #home-row-2 #ceremony-countdown{
-        height: 800px !important;
+    #ceremony-countdown img {
+        max-width: 60px;
     }
+    #ceremony-countdown #countdown {
+        font-size: 24px;
+    }
+    #ceremony-countdown #date {
+        font-size: 60px;
+    }
+
 }
-*/
 
     #home-row-1,
     #home-row-2 {
