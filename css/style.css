@@ -203,19 +203,14 @@ body {
 
 #slide-1 {
     background-image: url('../images/top-background.jpg');
-    color: #ffffff;
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
-
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
     width: 100%;
-    background-attachment: relative;
-    background-position: center center;
+
+    color: #ffffff;
+    background-position: top center;
 }
 
 #slide-1 h1 {
