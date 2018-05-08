@@ -251,6 +251,17 @@ body {
     }
 
 }
+@media (max-width: 767px) {
+    #ceremony-countdown img {
+        max-width: 50px;
+    }
+    #ceremony-countdown #countdown {
+        font-size: 20px;
+    }
+    #ceremony-countdown #date {
+        font-size: 40px;
+    }
+}
 
     #home-row-1,
     #home-row-2 {
